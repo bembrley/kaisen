@@ -1,0 +1,20 @@
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin dfa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin btn () {
+  &:hover {
+    background: transparent;
+    border: 2px solid #9099A3;
+    color: #9099A3;
+    transition: .3s;
+    transform: scale(1.1);
+  }
+}
